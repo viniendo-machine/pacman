@@ -1,0 +1,85 @@
+.grid{
+    display: flex ; 
+    flex-wrap: wrap;
+    width: 560px ; 
+    height: 560px ; 
+    border: solid black;
+}
+
+.grid div {
+    /* Each square on our grid is 20px by 20px ; 28 squares in total */
+    width: 20px ;; 
+    height: 20px ; 
+    /*Default background colour is white, since color not specified*/
+}
+
+.pac-dot {
+    /* White square with smaller green square */
+    background-color: green ; 
+    border: 5px solid white; 
+    box-sizing: border-box ; 
+}
+
+.wall{
+    /*blue square */
+    background-color: blue ; 
+
+}
+
+.power-pellet {
+    /*green circle*/
+    background-color: green ; 
+    border-radius: 10px ; 
+}
+
+.blinky{
+    background-color: red;
+    border: 0px ; 
+}
+
+.pinky{
+    background-color: pink ; 
+    border: 0px ; 
+}
+
+.inky{
+    background-color: cyan;
+    border: 0px ; 
+}
+
+.clyde{
+    background-color: orange;
+    border: 0px ; 
+}
+
+/* The ghosts have no border ; The pacdots have a border of 5 pixels 
+    If we don't explicitly set the border to be 5 pixels
+    The ghosts will also have a border of 5 pixels applied to them
+    and will be the same size as the pacdots which will be weird
+*/
+
+
+.pac-man{
+    border-radius: 10px ; 
+    background-color: yellow ; 
+}
+
+
+.grid2{
+    display: flex ; 
+    flex-wrap: wrap;
+    background-color: orange ; 
+    width: 100px ;
+    height: 100px ;  
+}
+
+.square{
+    width: 10px ;
+    height: 10px ; 
+    background-color: red ; 
+}
+
+.scared-ghost{
+    background-color: aquamarine ; 
+    border: 0px ; 
+}
